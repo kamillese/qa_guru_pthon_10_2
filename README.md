@@ -1,0 +1,1 @@
+# qa_guru_pthon_10_2
