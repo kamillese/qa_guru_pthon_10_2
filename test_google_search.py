@@ -8,7 +8,7 @@ def browser_size():
     browser.config.window_height = 1080
 
 
-def test_search_google(browser_size):
+def test_search_google():
     browser.open('https://google.com')
     if browser.element(by.text('Принять все')).matching(be.visible):
         browser.element(by.text('Принять все')).click()
